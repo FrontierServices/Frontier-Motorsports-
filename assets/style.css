@@ -29,3 +29,10 @@ body{background:#080b0d;color:#f2f6f8}.nav{border-color:#1e2a30}.section,.conten
     url('IMG_2681.jpeg') center 55%/cover no-repeat;
 }
 .discipline.oval{background:#182126}
+
+
+/* About team photo */
+.about-team-photo{margin:0 0 70px;position:relative;overflow:hidden;border-bottom:5px solid var(--accent);background:#0d1215}
+.about-team-photo img{display:block;width:100%;height:min(62vw,650px);object-fit:cover;object-position:center 52%}
+.about-team-photo:after{content:'';position:absolute;inset:0;box-shadow:inset 0 -90px 90px rgba(8,11,13,.3);pointer-events:none}
+@media(max-width:800px){.about-team-photo{margin-bottom:50px}.about-team-photo img{height:62vw;min-height:270px}}
