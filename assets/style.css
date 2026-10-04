@@ -36,3 +36,18 @@ body{background:#080b0d;color:#f2f6f8}.nav{border-color:#1e2a30}.section,.conten
 .about-team-photo img{display:block;width:100%;height:min(62vw,650px);object-fit:cover;object-position:center 52%}
 .about-team-photo:after{content:'';position:absolute;inset:0;box-shadow:inset 0 -90px 90px rgba(8,11,13,.3);pointer-events:none}
 @media(max-width:800px){.about-team-photo{margin-bottom:50px}.about-team-photo img{height:62vw;min-height:270px}}
+
+
+/* Full-photo Road Karting page cover */
+.inner-hero.road-cover{
+  background:
+    linear-gradient(90deg,rgba(8,11,13,.88) 0%,rgba(8,11,13,.48) 45%,rgba(8,11,13,.16) 100%),
+    url('IMG_0397.jpeg') center 58%/cover no-repeat;
+}
+.inner-hero.road-cover:after{background:linear-gradient(90deg,rgba(8,11,13,.55) 0%,rgba(8,11,13,.18) 58%,rgba(8,11,13,.05) 100%)}
+.inner-hero.road-cover .inner-hero-copy{max-width:65%}
+@media(max-width:800px){
+  .inner-hero.road-cover{background-position:center 55%;min-height:620px}
+  .inner-hero.road-cover .inner-hero-copy{max-width:100%}
+  .inner-hero.road-cover:after{background:linear-gradient(180deg,rgba(8,11,13,.7) 0%,rgba(8,11,13,.22) 55%,rgba(8,11,13,.45) 100%)}
+}
