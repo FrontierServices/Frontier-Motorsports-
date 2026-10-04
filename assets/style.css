@@ -51,3 +51,20 @@ body{background:#080b0d;color:#f2f6f8}.nav{border-color:#1e2a30}.section,.conten
   .inner-hero.road-cover .inner-hero-copy{max-width:100%}
   .inner-hero.road-cover:after{background:linear-gradient(180deg,rgba(8,11,13,.7) 0%,rgba(8,11,13,.22) 55%,rgba(8,11,13,.45) 100%)}
 }
+
+
+/* Homepage main hero photo */
+.hero{
+  background:
+    linear-gradient(90deg,rgba(5,8,10,.93) 0%,rgba(5,8,10,.68) 42%,rgba(5,8,10,.28) 72%,rgba(5,8,10,.16) 100%),
+    url('IMG_1552.jpeg') center 42%/cover no-repeat;
+}
+.hero-grid{opacity:.18}
+.hero-copy{position:relative;z-index:2}
+@media(max-width:800px){
+  .hero{
+    background:
+      linear-gradient(180deg,rgba(5,8,10,.72) 0%,rgba(5,8,10,.52) 48%,rgba(5,8,10,.86) 100%),
+      url('IMG_1552.jpeg') center 36%/cover no-repeat;
+  }
+}
